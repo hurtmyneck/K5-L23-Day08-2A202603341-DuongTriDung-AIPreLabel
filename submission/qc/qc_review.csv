@@ -1,0 +1,9 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,bo_sot,AI (Claude),"Người ngồi sau xe máy #8 (khoảng x 813-860, y 300-370) chưa có box; không chắc vì bị che nhiều, cần mắt người xác nhận"
+img_004.jpg,,khong,AI (Claude),"Không thấy lỗi ở mức nhìn ảnh render"
+img_008.jpg,,khong,AI (Claude),"Không thấy lỗi ở mức nhìn ảnh render"
+img_009.jpg,,khong,AI (Claude),"Không thấy lỗi; box xe #94 không gồm hàng nhô theo CAL-03"
+img_017.jpg,,khong,AI (Claude),"Không thấy lỗi ở mức nhìn ảnh render"
+img_018.jpg,,khong,AI (Claude),"Ảnh đông, vật nhỏ: không kiểm được từng vật < 20 px"
+img_024.jpg,,khong,AI (Claude),"Ảnh đêm nhoè chuyển động: xe nhoè dưới đáy đã gom vào ignore_region, không kiểm được từng vật"
+img_035.jpg,,khong,AI (Claude),"Không thấy lỗi ở mức nhìn ảnh render"
