@@ -1,1 +1,5 @@
 run_id,part,model,params,split,n_boxes,sec_per_img,what_went_right,what_went_wrong,decision
+r01,,yolo26-s,--model yolo26 --size s --split pilot --conf 0.25 --device cpu --out work/prelabel/t_y26,pilot,195,0.31,,3 tuktuk b? g?n th?nh truck/bus/car ? img_004,s?a l?i th?nh three-wheeled
+r02,,yolo26-s,--model yolo26 --size s --split pilot --conf 0.5 --device cpu --out work/prelabel/t_y26_c05,pilot,131,0.46,,model g?n cho ng??i k? c? khi ch? c? n?a b?n ch?n trong khung h?nh ? ?nh img_015,x?a box person b? th?a
+r03,,yoloe-s,--model yoloe --classes three_wheeler --split pilot --conf 0.25 --device cpu --out work/prelabel/t_yoloe,pilot,8,0.47,,tuktuk b? g?n th?nh bicycle ? img_032,s?a l?i th?nh three-wheeled
+r04,,yolo26-s+sam(sam2.1_b.pt),"--model yolo26 --size s --classes person,motorbike,car --images img_004.jpg img_013.jpg --conf 0.3 --segmenter sam --sam sam2.1_b.pt --device cpu --out work/prelabel/t_sam",custom,10,6.32,,ch?m h?n detector kho?ng 10 l?n,
