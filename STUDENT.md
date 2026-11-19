@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: https://github.com/hurtmyneck
 - Repo bài nộp (URL): https://github.com/hurtmyneck/K5-L23-Day08-2A202603341-DuongTriDung-AIPreLabel/tree/main
-- Commit chốt bài (hash): 
+- Commit chốt bài (hash): 98755b3
 - Máy: Windows 11, GPU CUDA
 - CVAT (Docker): v2.81.0
 
