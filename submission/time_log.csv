@@ -1,3 +1,3 @@
 step,images,minutes,note
-gold_manual,,12 ph?t,gan tay
-batch_review,,12 ph?t,check AI label
+gold_manual,4,12,gan tay 4 anh gold
+batch_review,24,12,kiem tra lai ket qua AI duyet
